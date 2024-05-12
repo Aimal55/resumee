@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.Container {
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+p {
+  display: inline;
+  align-items: flex-end;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  color: #ffffff;
+}
+
+h2,
+h3 {
+  font-size: 1.75em;
+  font-weight: lighter;
+  text-align: center;
+  color: #ffffff;
+}
+
+.profile {
+  border-radius: 20px;
+  background-color: rgb(245, 245, 243);
+  padding: 40px;
+  width: 30%;
+  max-width: 600px; /* Set a maximum width for the profile */
+  background: #719cf8; /* Change the background color */
+  padding: 20px;
+  border-radius: 20px; /* Adjust the border radius */
+    
+}
+.dp {
+  text-align: center;
+}
+.profile h2 {
+  color: #ffffff;
+}
+.software {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Experience {
+  width: 67%;
+  background-color: rgb(245, 245, 243);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.contacts {
+  justify-content: left;
+}
+
+.resume .resume_right .resume_hobby ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume .resume_right .resume_hobby ul li {
+  width: 80px;
+  height: 80px;
+  border: 2px solid rgb(2, 2, 2);
+  border-radius: 50%;
+  position: relative;
+  color: rgb(2, 2, 2);
+}
+
+.resume .resume_right .resume_hobby ul li i {
+  font-size: 30px;
+}
+
+.resume .resume_right .resume_hobby ul li:before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  right: -52px;
+  width: 50px;
+  height: 2px;
+  background: rgb(2, 2, 2);
+ 
+}
+
+.resume .resume_right .resume_hobby ul li:last-child:before {
+  display: none;
+}
+
+.hobbies {
+    list-style-type: none; /* Remove default list style */
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.hobbies li {
+    margin-right: 70px; /* Add spacing between items */
+}
+
+.hobbies li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+.hobbies li i {
+    display: block;
+    width: 100px; /* Set the width and height for uniform circular shape */
+    height: 100px;
+    background-color: #ccc; /* Set the background color */
+    border-radius: 50%; /* Make the shape circular */
+    text-align: center;
+    line-height: 100px; /* Center the icon vertically */
+}
+
+/* Example styles for font-awesome icons */
+.fas {
+    color: white; /* Set icon color */
+}
+
+.fab {
+    color: white; /* Set icon color */
+}
+
+/* You might need to adjust the icon sizes and colors based on your font-awesome version and preferences */
+
+
+.skill {
+  /* Add any specific styling for the skill section if needed */
+}
+
+.skill_name {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none; /* Remove default list style */
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px; /* Add spacing between items */
+}
+
+.skill_progress {
+  height: 10px; /* Set the height of the progress bar */
+  background-color: #ddd; /* Set the background color of the progress bar */
+}
+
+.skill_progress span {
+  display: block;
+  height: 100%; /* Make the span take full height of the progress bar */
+  background-color: black; /* Set default color */
+}
+
+.skill_per {
+  margin-top: 5px; /* Add spacing between progress bar and percentage */
+}
